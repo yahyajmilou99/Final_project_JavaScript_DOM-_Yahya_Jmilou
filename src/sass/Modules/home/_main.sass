@@ -281,6 +281,132 @@
 .dinner
     display: none
 
+
+// Section 8
+
+.section8
+    display: flex
+    flex-direction: column
+    gap: 30px
+    align-items: center
+    padding: 50px
+    background-color: #eeeeee
+
+.sec8Top
+    width: 100%
+    display: flex
+    flex-direction: column
+    align-items: center
+    h1
+        span
+            color: #d22d2d
+
+.sec8bottom
+    width: 93%
+    // background-color: red
+    display: flex
+    justify-content: space-between
+
+.sec8Card
+    // background-color: green
+    width: calc( 95% / 3 )
+    display: flex
+    flex-direction: column
+    align-items: center
+    text-align: center
+    gap: 30px
+    background-color: white
+    padding-bottom: 30px
+    transition: 0.3s
+    &:hover
+        transform: scale(1.1)
+
+.cardDescription
+    display: flex
+    flex-direction: column
+    gap: 10px
+    h3
+        font-size: 25px
+    p
+        color: #7d7d81
+
+// Section 9
+
+.section9
+    display: flex
+    flex-direction: column
+    width: 100%
+    padding: 40px
+    gap: 35px
+    input
+        border: none
+
+.sec9top
+    display: flex
+    flex-direction: column
+    width: 100%
+    align-items: center
+    gap: 10px
+    h1
+        font-size: 30px
+        span
+            color: #d22d2d
+
+.sec9bottom
+    display: flex
+    background-color: #eeeeee
+    flex-direction: row-reverse
+    .img
+        width: 35%
+        background-image: url(../img/reservation.jpg)
+        background-size: cover
+
+.form
+    display: flex
+    flex-direction: column
+    gap: 20px
+    width: 75%
+    align-items: center
+    padding-inline: 20px
+    padding-top: 70px
+    padding-bottom: 60px
+
+.smallInputs
+    width: 90%
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    gap: 20px
+
+.sec9Form
+    min-width: calc( 90% / 3 )
+    height: 45px
+
+.bigInput
+    width: 90%
+    display: flex
+    flex-direction: column
+    gap: 25px
+    align-items: center
+
+.sec9Btn
+        width: 150px
+        height: 35px
+        border-radius: 20px
+        border: none
+        background-color: #d22d2d
+        color: white
+
+.bigInp
+    min-width: 100%
+    height: 180px
+
+
+
+
+
+
+
 @media ( max-width: 430px )
 
     // Section 1
@@ -331,7 +457,6 @@
         width: 100%
         display: flex
         flex-direction: column
-        // justify-content: space-between
         gap: 40px
         padding: 0px
         padding-bottom: 60px
@@ -583,3 +708,134 @@
     
     .dinner
         display: none
+
+
+    // Section 8
+
+    .section8
+        display: flex
+        flex-direction: column
+        gap: 30px
+        align-items: center
+        padding: 0px
+        background-color: #eeeeee
+        padding-top: 50px
+        padding-bottom: 50px
+
+    .sec8Top
+        width: 100%
+        display: flex
+        flex-direction: column
+        align-items: center
+        text-align: center
+        h1
+            span
+                color: #d22d2d
+
+    .sec8bottom
+        width: 93%
+        // background-color: red
+        display: flex
+        flex-direction: column
+        gap: 40px
+
+    .sec8Card
+        // background-color: green
+        width: 100%
+        display: flex
+        flex-direction: column
+        align-items: center
+        text-align: center
+        gap: 30px
+        background-color: white
+        padding-bottom: 30px
+        transition: 0.3s
+        &:hover
+            transform: scale(1.1)
+
+    .cardDescription
+        display: flex
+        flex-direction: column
+        gap: 10px
+        h3
+            font-size: 25px
+        p
+            color: #a9a8ac
+
+
+    // Section 9
+
+    .section9
+        display: flex
+        flex-direction: column
+        width: 100%
+        padding: 0px
+        padding-top: 30px
+        padding-bottom: 30px
+        gap: 35px
+        input
+            border: none
+
+    .sec9top
+        display: flex
+        flex-direction: column
+        width: 100%
+        align-items: center
+        gap: 10px
+        h1
+            font-size: 18px
+            span
+                color: #d22d2d
+
+    .sec9bottom
+        display: flex
+        background-color: #eeeeee
+        flex-direction: column-reverse
+        gap: 0
+        .img
+            width: 100%
+            height: 70vh
+            background-image: url(../img/reservation.jpg)
+            background-size: cover
+
+    .form
+        display: flex
+        flex-direction: column
+        gap: 20px
+        width: 100%
+        align-items: center
+        padding-inline: 5px
+        padding-top: 70px
+        padding-bottom: 60px
+
+    .smallInputs
+        width: 100%
+        display: flex
+        flex-wrap: nowrap
+        flex-direction: column
+        justify-content: space-between
+        gap: 20px
+        align-items: center
+
+    .sec9Form
+        min-width: 90%
+        height: 45px
+
+    .bigInput
+        width: 90%
+        display: flex
+        flex-direction: column
+        gap: 25px
+        align-items: center
+
+    .sec9Btn
+            width: 150px
+            height: 35px
+            border-radius: 20px
+            border: none
+            background-color: #d22d2d
+            color: white
+
+    .bigInp
+        min-width: 100%
+        height: 180px

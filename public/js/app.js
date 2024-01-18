@@ -8,6 +8,7 @@ let lunch = document.querySelector(`.Lunch`)
 let dinner = document.querySelector(`.dinner`)
 let menuContent = document.querySelectorAll(`.menuContent`)
 
+// console.log(meals);
 
 meals.forEach(element => {
     element.addEventListener(`click`, () => {
@@ -39,7 +40,4 @@ meals.forEach(element => {
         }
     })
 });
-
-
-
 
