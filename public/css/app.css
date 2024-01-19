@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Brush Script MT", cursive;
+}
+
 nav {
   height: 12vh;
   display: flex;
@@ -1592,6 +1596,10 @@ footer {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Brush Script MT", cursive;
 }
 
 nav {
