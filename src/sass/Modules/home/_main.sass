@@ -1,3 +1,6 @@
+body
+    cursor: pointer
+    
 // Section 1
 
 .section1
@@ -25,11 +28,28 @@
     gap: 30px
     align-items: center
     button
-        width: 120px
+        width: 150px
         height: 100%
         border-radius: 20px
         border: none
         background-color: #ce1212
+        color: white
+
+.sec1Watch
+    display: flex
+    gap: 10px
+    align-items: center
+
+.sec1Icn
+    width: 40px
+    height: 40px
+    border-radius: 50%
+    border: solid 2px #ce1212
+    color: #ce1212
+    display: flex
+    align-items: center
+    justify-content: center
+
 
 // Section2 2
 
@@ -58,6 +78,22 @@
     display: flex
     flex-direction: column
     gap: 20px
+
+.vidBtnsec2
+    position: relative
+    img
+        width: 30vw
+
+.sec2Start
+    position: absolute
+    top: 0
+    left: 50%
+    top: 50%
+    width: 70px
+    height: 70px
+    transform: translate(-150%,-50%)
+    border: 4px solid 
+    background-color: white
 
 .sec2left
     width: 45vw
@@ -105,6 +141,37 @@
 
 .sec2Italic
     font-style: italic
+
+.videoContainer
+    position: fixed
+    width: 100%
+    height: 100vh
+    top: 0
+    left: 0
+    display: flex
+    background-color: #00000096
+    justify-content: center
+    align-items: center
+    transition: 0.3s all
+    display: none
+    iframe
+        width: 90%
+        outline: none
+        display: block
+
+
+
+.close
+    position: absolute
+    top: 30px
+    right: 40px
+    font-size: 40px
+    color: white
+
+.showVid
+    display: flex
+
+
 
 // Section 3
 
@@ -598,6 +665,22 @@
             font-size: 25px
             font-weight: bold
 
+    .vidBtnsec2
+        position: relative
+        img
+            width: 100%
+
+    .sec2Start
+        position: absolute
+        top: 0
+        left: 50%
+        top: 50%
+        width: 70px
+        height: 70px
+        transform: translate(-40%,-50%)
+        border: 4px solid 
+        background-color: white
+
     .sec2text
         display: flex
         flex-direction: column
@@ -621,6 +704,18 @@
         justify-content: space-between
         gap: 20px
         // background-color: red
+    .starters
+        display: none
+
+    .Breakfast
+        display: none
+
+    .Lunch
+        display: none
+
+    .dinner
+        display: none
+    
 
     // Section 3
 

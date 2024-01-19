@@ -32,10 +32,14 @@ nav
 .navLinks
     display: flex
     gap: 5px
-    width: 63%
-    // background-color: yellow
+    width: 70%
     justify-content: space-between
     align-items: center
+    div
+        a
+            text-decoration: none
+            font-size: 18px
+            color: #626a6d
 
 .navLink
     width: calc( 100% /8)
@@ -49,6 +53,101 @@ nav
     width: 140px
     border-radius: 20px
     border: none
+    background-color: #ce1212
+    color: white
+
+.navResp
+    display: none
+
+.navBars
+    display: none
+
+
+
+.d-none
+    display: none
+
+.d-flex
+    display: flex
+
+
+
+.formNav
+    width: 100%
+    height: 100vh
+    background-color: #00000088
+    position: fixed
+    z-index: 1000000000000
+    display: flex
+    align-items: center
+    justify-content: center
+
+.formNavcontent
+    height: 65vh
+    width: 45vw !important
+    background-color: white
+    display: flex
+    justify-content: start
+    align-items: start
+    flex-direction: column
+
+
+.exit
+    position: fixed
+    right: 25vh
+    top: 15vh
+    font-size: 50px
+    color: white
+
+.formTop
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: start
+    gap: 10px
+
+.signup
+    background-color: green
+
+.login
+    background-color: blue
+
+.topItems
+    width: 50%
+    height: 60px
+    display: flex
+    align-items: center
+    justify-content: center
+
+.formbottom
+    height: 100%
+    width: 100%
+    // background-color: purple
+
+.signUpcontent
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    height: 100%
+    gap: 20px
+    display: none
+
+.signItem
+    input
+        width: 280px
+        height: 30px
+
+.logincontent
+    // background-color: red
+    height: 100%
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    justify-content: space-around
+
+
 
 
 @media  (max-width: 430px)
@@ -57,30 +156,36 @@ nav
         padding: 0
         box-sizing: border-box
     nav
-        height: 100vh
-        width: 90%
+        height: fit-content
+        min-height: 10vh
+        width: 100%
         display: flex
         flex-direction: column
-        background-color: red
-        display: none
+        // display: none
+        position: fixed
+        background-color: white
+        z-index: 111
 
     .navElements
-        width: 97%
+        width: 100%
         // background-color: green
-        height: 100%
+        height: fit-content
         display: flex
-        flex-direction: column
-        justify-content: start
+        flex-direction: row
+        justify-content: center
         align-items: center
+        gap: 30px
 
     .navTitle
-        width: 100%
-        height: 20%
+        width: fit-content
+        height: fit-content
         font-size: 40px
         display: flex
         justify-content: center
         align-items: center
+        // display: none
         p
+            font-size: 25px
             span
                 color: red
 
@@ -88,13 +193,46 @@ nav
         display: flex
         flex-direction: column
         gap: 15px
-        width: 63%
-        // background-color: yellow
+        width: 90%
+        height: 100%
+        background-color: yellow
         justify-content: space-between
         align-items: center
+        display: none
 
     .navBtn
-        height: 7%
-        width: 140px
+        height: 30px
+        width: 100px
         border-radius: 20px
         border: none
+        font-size: 10px
+        display: none
+
+    // .navResp
+    //     display: flex
+    //     font-size: 25px
+
+    // .navBars
+    //     display: flex
+
+    // main
+    //     display: none
+
+    // .d-none
+    //     display: none
+
+    // .d-flex
+    //     display: flex
+
+    .formNav
+        display: none
+        background-color: red
+
+    .formNavcontent
+        display: none
+
+    .formbottom
+        display: none
+
+    .logincontent
+        display: none

@@ -17,32 +17,84 @@
                 </div>
                 <div class="navLinks">
                     <div class="navLink"><a href="">
-                            <p>Home</p>
+                            Home
                         </a></div>
                     <div class="navLink"><a href="">
-                            <p>About</p>
+                            About
                         </a></div>
                     <div class="navLink"><a href="">
-                            <p>Menu</p>
+                            Menu
                         </a></div>
                     <div class="navLink"><a href="">
-                            <p>Event</p>
+                            Event
                         </a></div>
                     <div class="navLink"><a href="">
-                            <p>Chefs</p>
+                            Chefs
                         </a></div>
                     <div class="navLink"><a href="">
-                            <p>Gallery</p>
+                            Gallery
                         </a></div>
                     <div class="navLink"><a href="">
-                            <p>Drop Down</p>
+                            Drop Down
                         </a></div>
                     <div class="navLink"><a href="">
-                            <p>Contact</p>
+                            Contact
                         </a></div>
+                    <i class="fa-solid fa-xmark navResp"></i>
                 </div>
                 <button class="navBtn">Sign-Up / Sign-In</button>
+                <i class="fa-solid fa-bars navBars"></i>
             </div>
+
+            <div class="formNav">
+                <i class="fa-solid fa-xmark exit"></i>
+                <div class="formNavcontent">
+                    <div class="formTop">
+                        <div class="signup topItems">
+                            <h3>Sign Up</h3>
+                        </div>
+                        <div class="login topItems">
+                            <h3>Login</h3>
+                        </div>
+                    </div>
+                    <div class="formbottom">
+                        <div class="signUpcontent">
+                            <div class="emailnav signItem">
+                                <h4>Email</h4>
+                                <input type="text" placeholder="Email">
+                            </div>
+                            <div class="passwordnav signItem">
+                                <h4>Password</h4>
+                                <input type="password" placeholder="password">
+                            </div>
+                            <div class="comfirmpasswordnav signItem">
+                                <h4>Password</h4>
+                                <input type="password" placeholder="comfirmpassword">
+                            </div>
+                            <div class="numberNav signItem">
+                                <h4>Number</h4>
+                                <input type="password" placeholder="number">
+                            </div>
+                            <button>SUBMIT</button>
+                        </div>
+
+
+                        <div class="logincontent">
+                            <div class="emailnav signItem">
+                                <h4>Email</h4>
+                                <input type="text" placeholder="Email">
+                            </div>
+                            <div class="passwordnav signItem">
+                                <h4>Password</h4>
+                                <input type="password" placeholder="password">
+                            </div>
+                            <button>SUBMIT</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
         </nav>
     </header>
     <main>
@@ -55,8 +107,8 @@
                     dolor sit amet consectetur.</P>
                 <div class="btnsPart">
                     <button>Book a Table</button>
-                    <div>
-                        <div><i></i></div>
+                    <div class="sec1Watch videoModal">
+                        <div class="sec1Icn"><i class="fa-solid fa-play"></i></div>
                         <p>Watch Video</p>
                     </div>
                 </div>
@@ -97,10 +149,23 @@
                             est
                             cumque!</p>
                     </div>
-                    <img src="./public/img/about-2.jpg" alt="">
+                    <div class="vidBtnsec2 videoModal">
+                        <img src="./public/img/about-2.jpg" alt="">
+                        <div class="sec1Icn sec2Start"><i class="fa-solid fa-play"></i></div>
+                    </div>
                 </div>
             </div>
+            </div>
         </section>
+
+        <!-- & VIDEO  -->
+        <div class="videoContainer">
+            <i class="fa-solid fa-xmark close"></i>
+            <iframe width="656" height="369" src="https://www.youtube.com/embed/45bNmeqHO6o" title="C&#39;MON"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
 
         <!--* SECTION 3 -->
 
@@ -423,7 +488,10 @@
                 <h1>NEED HELP? <span>CONTACT US</span></h1>
             </div>
             <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26600.523252012834!2d-7.579739335888302!3d33.55167691000108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda63324fd2cbcbb%3A0x4716ad383449d2e!2sSidi%20Othmane%2C%20Casablanca!5e0!3m2!1sfr!2sma!4v1705620028019!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26600.523252012834!2d-7.579739335888302!3d33.55167691000108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda63324fd2cbcbb%3A0x4716ad383449d2e!2sSidi%20Othmane%2C%20Casablanca!5e0!3m2!1sfr!2sma!4v1705620028019!5m2!1sfr!2sma"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="sec11Contact">
                 <div class="contactItems">
@@ -475,9 +543,68 @@
                 </div>
             </div>
         </section>
-
     </main>
+    <footer>
+        <div class="footerTop">
+            <div class="footerParts">
+                <i class="fa-solid fa-location-dot"></i>
+                <div class="footerParttxt">
+                    <h4>Address</h4>
+                    <div>
+                        <p>A108 Adam Street</p>
+                        <p>New York, NY 535022-US</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footerParts">
+                <i class="fa-solid fa-phone"></i>
+                <div class="footerParttxt">
+                    <h4>Reservations</h4>
+                    <div>
+                        <div>
+                            <p><span>Phone:</span> +1 5589 55499 55</p>
+                        </div>
+                        <div>
+                            <p><span>Email:</span> info@example.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <div class="footerParts">
+                <i class="fa-regular fa-clock"></i>
+                <div class="footerParttxt">
+                    <h4>Opening Hours</h4>
+                    <div>
+                        <p>Mon-Sat: 11AM - 23pm</p>
+                        <p>Sunday: Closed</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footerIcons">
+                <h4>Follow Us</h4>
+                <div class="icons">
+                    <div class="roundedIcnFtr">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="roundedIcnFtr">
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <div class="roundedIcnFtr">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="roundedIcnFtr">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footerBottom">
+            <p>Copyright <span>Yummy</span> All Rights Reserved</p>
+            <p>Designed by BootStrapMade</p>
+        </div>
+    </footer>
 
     <script src="./public/js/app.js"></script>
 </body>
